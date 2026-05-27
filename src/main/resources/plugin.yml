@@ -1,0 +1,28 @@
+name: NukkitDupe
+version: 1.0.0
+main: com.nukkitdupe.NukkitDupe
+api: ["1.0.13"]
+load: POSTWORLD
+author: Vaktari-Dev
+description: Smart item duplication plugin for Nukkit-PM1E
+website: https://github.com/Vaktari-Dev/NukkitDupe
+
+softdepend:
+  - Multipass
+
+permissions:
+  nukkitdupe.use:
+    description: Allows using /dupe command
+    default: op
+  nukkitdupe.admin:
+    description: Allows admin commands (/dupe reload, /dupe reset)
+    default: op
+  nukkitdupe.bypass.cooldown:
+    description: Bypasses cooldown restrictions
+    default: false
+  nukkitdupe.bypass.limit:
+    description: Bypasses usage limit restrictions
+    default: false
+  nukkitdupe.bypass.blacklist:
+    description: Bypasses blacklist restrictions
+    default: false

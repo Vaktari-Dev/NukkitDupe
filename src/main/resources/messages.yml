@@ -1,0 +1,27 @@
+# ───────────────────────────────────────
+#  NukkitDupe Messages
+#  Author: Vaktari-Dev
+#  Color codes: &0-&f, &l, &m, &n, &o, &r
+# ───────────────────────────────────────
+
+prefix: "&8[&bNukkitDupe&8] &r"
+
+no-permission: "{prefix}&cYou do not have permission to use this command."
+no-permission-group: "{prefix}&cYou do not have access to any dupe group."
+
+dupe-success: "{prefix}&aYou successfully duplicated &e{item}&a x&e{amount}&a!"
+dupe-cooldown: "{prefix}&cYou must wait &e{time}&c seconds before using dupe again."
+dupe-limit-reached: "{prefix}&cYou have reached your dupe limit for this restart (&e{limit}&c)."
+dupe-blacklisted: "{prefix}&cThis item cannot be duplicated."
+dupe-no-item: "{prefix}&cYou must hold an item in your hand to dupe."
+
+reload-success: "{prefix}&aConfiguration reloaded successfully."
+reload-fail: "{prefix}&cFailed to reload configuration. Check console for errors."
+
+reset-success: "{prefix}&aUsage limits have been reset for all players."
+reset-fail: "{prefix}&cFailed to reset usage limits."
+
+multipass-not-found: "{prefix}&eMultipass not detected. Using default settings."
+
+usage: "{prefix}&eUsage: &b/dupe"
+usage-admin: "{prefix}&eUsage: &b/dupe reload &7| &b/dupe reset"
