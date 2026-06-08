@@ -137,9 +137,9 @@ mvn clean package
 
 ## Разработчик
 
-**Vaktari-Dev**
+**FarukDevv**
 
-- GitHub: [@Vaktari-Dev](https://github.com/Vaktari-Dev)
+- GitHub: [@FarukDevv](https://github.com/FarukDevv)
 
 ---
 
